@@ -17,7 +17,7 @@ console.log('Estaba en la posicion: ' + posicion);
 
 console.log('Porque en verdad solo era la tapa, adentro esta el Libro de la Selva.');
 
-misLibros.push('Libro de la Selva');
+misLibros[posicion]='Libro de la Selva';
 
 console.log('Me regalaron para navidad el libro de La divina comedia. La voy a agregar al fondo de mi biblioteca');
 

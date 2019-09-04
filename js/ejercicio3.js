@@ -17,9 +17,10 @@ listaDeReproduccion.push('En el septimo dia');
 
 console.log('Ahora ya tengo mi album de Soda listo para reproducirse.' + listaDeReproduccion + ' con un total de ' + listaDeReproduccion.length + ' canciones.');
 
+// var proximaCancion = listaDeReproduccion.pop(); en de lo que se ve
+
 listaDeReproduccion.pop();
 listaDeReproduccion.push('En el septimo dia');
-
 
 
 var proximaCancion = listaDeReproduccion[3];
